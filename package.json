@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
+		"backend": "nodemon server/index.js",
+		"frontend": "npm run start --prefix client",
+		"dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+  },
+  "keywords": [],
+  "author": "manish tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.7",
+    "react-redux": "^7.2.6",
+    "saslprep": "^1.0.3",
+    "socket.io": "^4.4.1",
+    "supports-color": "^9.2.1"
+  }
+}
