@@ -69,7 +69,7 @@ npm install npm@latest -g
 1. Clone the moviesMERN
 
 ```sh
-https://github.com/manish-tiwari7355/MOVIE
+https://github.com/manish-tiwari7355/MOVIE.git
 
 
 ```
