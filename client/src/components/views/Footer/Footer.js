@@ -15,7 +15,7 @@ function Footer() {
         fontSize: "1rem",
       }}
     >
-      <p> &copy; Kristijan Maoduš - {new Date().getFullYear()} </p>
+      <p> Manish Tiwari - {new Date().getFullYear()} </p>
     </div>
   );
 }
